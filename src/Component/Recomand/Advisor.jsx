@@ -1,11 +1,21 @@
 
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Advisor = () => {
-    const advisors = [{ "id": "1", "name": "Jonson", "position": "COO", "email": "dipropaul032@gmail.com", "years_of_experience": 10, "education": "Bachelor of Finance from XYZ University", "firm_name": "Origin", "firm_website": "https://www.abcfinancialservices.com", "image": "https://i.ibb.co/bbRMB9T/4113045.png" },
-    { "id": "2", "name": "Smith", "position": "CTO", "email": "dipropaul032@gmail.com", "years_of_experience": 15, "education": "Bachelor of Finance from XYZ University", "firm_name": "KBC Financial Services", "firm_website": "https://www.abcfinancialservices.com", "image": "https://i.ibb.co/Qr3D2Jg/5556468.png" },
-    { "id": "3", "name": "Joe", "position": "Manager", "email": "dipropaul032@gmail.com", "years_of_experience": 15, "education": "Bachelor of Finance from XYZ University", "firm_name": "ABC Financial Services", "firm_website": "https://www.abcfinancialservices.com", "image": "https://i.ibb.co/bbRMB9T/4113045.png" },
-    { "id": "4", "name": "Selina", "position": "Financial Advisor", "email": "dipropaul032@gmail.com", "years_of_experience": 12, "education": "Bachelor of Finance from XYZ University", "firm_name": "Karim Group", "firm_website": "https://www.abcfinancialservices.com", "image": "https://i.ibb.co/9GRd3J7/1000-F-230608264-fhoq-Bu-Eyi-CPw-T0h9-Rtnsu-NAId3h-Wung-P.jpg" }]
+    const [advisors, setAdvisors] = useState([]);
+    // const advisors = [{ "id": "1", "name": "Jonson", "position": "COO", "email": "dipropaul032@gmail.com", "years_of_experience": 10, "education": "Bachelor of Finance from XYZ University", "firm_name": "Origin", "firm_website": "https://www.abcfinancialservices.com", "image": "https://i.ibb.co/bbRMB9T/4113045.png" },
+    // { "id": "2", "name": "Smith", "position": "CTO", "email": "dipropaul032@gmail.com", "years_of_experience": 15, "education": "Bachelor of Finance from XYZ University", "firm_name": "KBC Financial Services", "firm_website": "https://www.abcfinancialservices.com", "image": "https://i.ibb.co/Qr3D2Jg/5556468.png" },
+    // { "id": "3", "name": "Joe", "position": "Manager", "email": "dipropaul032@gmail.com", "years_of_experience": 15, "education": "Bachelor of Finance from XYZ University", "firm_name": "ABC Financial Services", "firm_website": "https://www.abcfinancialservices.com", "image": "https://i.ibb.co/bbRMB9T/4113045.png" },
+    // { "id": "4", "name": "Selina", "position": "Financial Advisor", "email": "dipropaul032@gmail.com", "years_of_experience": 12, "education": "Bachelor of Finance from XYZ University", "firm_name": "Karim Group", "firm_website": "https://www.abcfinancialservices.com", "image": "https://i.ibb.co/9GRd3J7/1000-F-230608264-fhoq-Bu-Eyi-CPw-T0h9-Rtnsu-NAId3h-Wung-P.jpg" }]
+    useEffect(() => {
+        fetch('https://easy-tan-rhinoceros-hose.cyclic.app/advisor')
+            .then((response) => response.json())
+            .then((data) =>{
+                setAdvisors(data)
+             console.log(advisors);
+            } );
+    }, [])
   return (
     <div className="sm:max-w-sm sm:mx-2 sm:mt-3">
       <h1 className="lg:mt-10 text-2xl lg:text-5xl md:text-5xl font-bold text-white text-center md:mt-10 sm:ml-10 sm:text-center lg:text-center mb-5 md:mb-0">
