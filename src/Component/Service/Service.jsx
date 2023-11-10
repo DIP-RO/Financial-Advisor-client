@@ -2,44 +2,14 @@ import { Link } from "react-router-dom";
 import Loading from "../Loading/Loading";
 
 const Service = () => {
-    const service = [
-        {
-            id: 1,
-            img: "https://tfe-bd.sgp1.cdn.digitaloceanspaces.com/posts/11695/land-law.jpg",
-            title: "Land Law",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-        {
-            id: 2,
-            img: "https://blog.ipleaders.in/wp-content/uploads/2022/06/Civil-law-1.jpg",
-            title: "Civil Law",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-        {
-            id: 3,
-            img: "https://ndcriminal.com/wp-content/uploads/2020/11/Criminal-Defense-Attorney-Fargo-750x465.jpg",
-            title: "Criminal Law",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-        // {
-        //     id: 4,
-        //     img: "https://dailyasianage.com/library/1625955780_9.jpg",
-        //     title: "Cyber Crime",
-        //     description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        // },
-        // {
-        //     id: 5,
-        //     img: "https://contiguglia.com/wp-content/uploads/2020/05/AdobeStock_226728389-1080x675.jpeg",
-        //     title: "Business Law",
-        //     description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        // },
-        // {
-        //     id: 6,
-        //     img: "https://www.wotitzkylaw.com/wp-content/uploads/2021/07/28907376_m.jpg",
-        //     title: "Real Estate Law",
-        //     description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        // },
-    ];
+    const service = 
+        [{ "id": "1", "title": "Personalized Financial Planning", "description": "Our AI financial advisor offers personalized financial planning services to help you achieve your financial goals. We analyze your financial situation and provide tailored recommendations.", "icon": "https://www.sihl.in/App_Themes/images/financial_planning-img.svg" },
+
+        { "id": "2", "title": "Investment Advice", "description": "Get expert investment advice from our AI-powered platform. We can help you make informed investment decisions based on your risk tolerance and financial objectives.", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0IUiYKGRcfMql4XtAjJsrIslWFmBfK3L0ZA&usqp=CAU" },
+        { "id": "3", "title": "Budgeting Assistance", "description": "Struggling with budgeting? Our AI financial advisor can assist you in creating a budget that suits your lifestyle and financial needs.", "icon": "https://media.istockphoto.com/id/1090652214/photo/budget-with-woman-using-a-smartphone.jpg?s=612x612&w=0&k=20&c=kh6_1s4j5eJ8lEp9y-CHKgga6mPSK0oaJdtz1RNmkjM=" },
+       
+         
+        ];
 <Loading/>
     return (
         <div className="sm:max-w-sm sm:mx-2 sm:mt-3">
@@ -50,7 +20,7 @@ const Service = () => {
                         <div className="flex relative">
                             <div className="absolute card bg-[#1d344a] lg:w-96 lg:m-10 border-dashed border-2 lg:h-[280px] md:w-72 md:h-72 sm:h-52 sm:w-full border-white hover:border-solid ">
                                 <figure className="px-10 pt-10">
-                                    <img src={item.img} alt={item.title} className="rounded-full lg:w-32 lg:h-32 md:w-20 md:h-20 sm:w-16 sm:h-16" />
+                                    <img src={item.icon} alt={item.title} className="rounded-full lg:w-32 lg:h-32 md:w-20 md:h-20 sm:w-16 sm:h-16" />
                                 </figure>
                                 <div className="card-body items-center text-center">
                                     <h2 className="card-title text-white">{item.title}</h2>

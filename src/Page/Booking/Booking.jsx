@@ -1,12 +1,12 @@
 import Loading from "../../Component/Loading/Loading";
-import AvaiableLawyer from "../Appointment/AvaiableLawyer/AvaiableLawyer";
+import Advisors from "../Appointment/Advisors";
 
 const Booking = () => {
    
     <Loading/>
   return (
     <div>
-            <AvaiableLawyer></AvaiableLawyer>
+           <Advisors></Advisors>
         </div>
   );
 };

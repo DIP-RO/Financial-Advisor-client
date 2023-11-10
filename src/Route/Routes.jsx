@@ -11,27 +11,22 @@ import About from "../Page/About/About";
 import Blog from "../Page/Blog/Blog";
 import Contact from "../Page/Contact/Contact";
 import SignUp from "../Page/SignUp/SignUp";
-import LawyerDetails from "../Page/LawyerDetails/LawyerDetails";
-import BookMark from "../Page/BookMark/BookMark";
 import Booking from "../Page/Booking/Booking";
-import Message from "../Page/Message/Message";
 import Profile from "../Page/Profile/Profile";
-import Review from "../Page/Review/Review";
 import ComingSoon from "../Page/ComingSoon/ComingSoon";
 import LexAi from "../Page/LexAi/LexAi";
-import LawDEtails from "../Page/LawDetails/LawDEtails";
 import BlogDetails from "../Page/BlogDetails/BlogDetails";
 import Registration from "../Page/Registration/Registration";
 import AddBlog from "../Page/DashboardHome/AddBlog";
 import AddService from "../Page/DashboardHome/AddService";
 import AllTestimonial from "../Page/DashboardHome/AllTestimonial";
 import AllAppointment from "../Page/DashboardHome/AllAppointment";
-import AddLawyer from "../Page/DashboardHome/AddLawyer";
 import AllUser from "../Page/DashboardHome/AllUser";
 import Service from "../Component/Service/Service";
 import AllServices from "../Component/Service/AllServices";
 
 import DownloadAppPage from "../Component/DownLoadApp/DownloadAppPage";
+import Advisor from "../Component/Recomand/Advisor";
 
  export const router = createBrowserRouter([
     {
@@ -71,16 +66,12 @@ import DownloadAppPage from "../Component/DownLoadApp/DownloadAppPage";
           element:<Contact></Contact>,
         },
         {
-          path: "/lawyardetails/:id",
-          element:<LawyerDetails></LawyerDetails>,
+          path: "/advisor",
+          element:<Advisor></Advisor>,
         },
         {
           path: "/lex-Ai",
           element:<LexAi></LexAi>,
-        },
-        {
-          path: "/law-details/:id",
-          element:<LawDEtails></LawDEtails>,
         },
         {
           path: "/coming-soon",
@@ -110,10 +101,7 @@ import DownloadAppPage from "../Component/DownLoadApp/DownloadAppPage";
           path: "/dashboard",
           element: <DashboardHome></DashboardHome>,
         },
-        {
-          path: "/dashboard/bookmark",
-          element: <BookMark></BookMark>,
-        },
+      
         {
           path: "/dashboard/booking",
           element: <Booking></Booking>,
@@ -122,10 +110,7 @@ import DownloadAppPage from "../Component/DownLoadApp/DownloadAppPage";
           path: "/dashboard/allAppointment",
           element: <AllAppointment></AllAppointment>,
         },
-        {
-          path: "/dashboard/addLawyer",
-          element: <AddLawyer></AddLawyer>,
-        },
+      
         {
           path: "/dashboard/allUser",
           element: <AllUser></AllUser>
@@ -142,18 +127,12 @@ import DownloadAppPage from "../Component/DownLoadApp/DownloadAppPage";
           path: "/dashboard/addBlog",
           element: <AddBlog></AddBlog>,
         },
-        {
-          path: "/dashboard/message",
-          element: <Message></Message>,
-        },
+      
         {
           path: "/dashboard/profile",
           element: <Profile></Profile>,
         },
-        {
-          path: "/dashboard/review",
-          element: <Review></Review>,
-        },
+      
         {
           path: "/dashboard/comming",
           element: <ComingSoon></ComingSoon>,

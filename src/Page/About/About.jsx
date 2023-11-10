@@ -1,4 +1,5 @@
 import Loading from '../../Component/Loading/Loading';
+import Contact from '../Contact/Contact';
 
 import Others from './others';
 
@@ -6,16 +7,9 @@ const About = () => {
     <Loading/>
     return (
         <div>
-            <div className="hero md:h-96 lg:h-96" style={{ backgroundImage: 'url(https://i.ibb.co/zF82vmG/image.png)' }}>
-                <div className="hero-overlay bg-opacity-60"></div>
-                <div className="hero-content text-center text-neutral-content">
-                    <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">About Us</h1>
-                    </div>
-                </div>
-            </div>
+        
           
-
+<Contact></Contact>
           
             <Others />
         </div>

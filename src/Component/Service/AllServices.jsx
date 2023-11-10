@@ -3,44 +3,15 @@ import Loading from "../Loading/Loading";
 
 
 const AllServices = () => {
-    const service = [
-        {
-            id: 1,
-            img: "https://tfe-bd.sgp1.cdn.digitaloceanspaces.com/posts/11695/land-law.jpg",
-            title: "Land Law",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-        {
-            id: 2,
-            img: "https://blog.ipleaders.in/wp-content/uploads/2022/06/Civil-law-1.jpg",
-            title: "Civil Law",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-        {
-            id: 3,
-            img: "https://ndcriminal.com/wp-content/uploads/2020/11/Criminal-Defense-Attorney-Fargo-750x465.jpg",
-            title: "Criminal Law",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-        {
-            id: 4,
-            img: "https://dailyasianage.com/library/1625955780_9.jpg",
-            title: "Cyber Crime",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-        {
-            id: 5,
-            img: "https://contiguglia.com/wp-content/uploads/2020/05/AdobeStock_226728389-1080x675.jpeg",
-            title: "Business Law",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-        {
-            id: 6,
-            img: "https://www.wotitzkylaw.com/wp-content/uploads/2021/07/28907376_m.jpg",
-            title: "Real Estate Law",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking.",
-        },
-    ];
+    const service = 
+        [{ "id": "1", "title": "Personalized Financial Planning", "description": "Our AI financial advisor offers personalized financial planning services to help you achieve your financial goals. We analyze your financial situation and provide tailored recommendations.", "icon": "https://www.sihl.in/App_Themes/images/financial_planning-img.svg" },
+
+        { "id": "2", "title": "Investment Advice", "description": "Get expert investment advice from our AI-powered platform. We can help you make informed investment decisions based on your risk tolerance and financial objectives.", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0IUiYKGRcfMql4XtAjJsrIslWFmBfK3L0ZA&usqp=CAU" },
+        { "id": "3", "title": "Budgeting Assistance", "description": "Struggling with budgeting? Our AI financial advisor can assist you in creating a budget that suits your lifestyle and financial needs.", "icon": "https://media.istockphoto.com/id/1090652214/photo/budget-with-woman-using-a-smartphone.jpg?s=612x612&w=0&k=20&c=kh6_1s4j5eJ8lEp9y-CHKgga6mPSK0oaJdtz1RNmkjM=" },
+        { "id": "4", "title": "Debt Management", "description": "Manage your debt effectively with our AI-powered tools. We provide strategies to reduce debt and improve your financial well-being.", "icon": "https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/a/2/a2c306ea3754c1e340fa886f73b3ece14f83095c971242f7b3d645531c15d9fd/debt-management-mc-slide1.png" },
+        { "id": "5", "title": "Debt Management", "description": "Manage your debt effectively with our AI-powered tools. We provide strategies to reduce debt and improve your financial well-being.", "icon": "https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/a/2/a2c306ea3754c1e340fa886f73b3ece14f83095c971242f7b3d645531c15d9fd/debt-management-mc-slide1.png" },
+         
+        ];
 <Loading/>
     return (
         <div className="sm:max-w-sm sm:mx-2 sm:mt-3">

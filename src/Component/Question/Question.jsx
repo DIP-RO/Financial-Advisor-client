@@ -6,7 +6,7 @@ const Question = () => {
         <div className="hero min-h-fit my-10 sm:hidden">
             <div className="hero-content flex-col gap-10 lg:flex-row-reverse md:flex-row-reverse">
                 <div className="w-full md:w-1/2">
-                    <img src="https://i.ibb.co/WyM7qdQ/image.png" className="max-w-sm" />
+                    <img src="https://i.ibb.co/gzZZ3Kc/pngtree-business-villain-answer-questions-png-image-1995092-removebg-preview.png" className="max-w-sm" />
                 </div>
                 <div className="w-full md:w-1/2">
                     <h1 className="text-5xl font-bold text-white">Any Question?</h1>
