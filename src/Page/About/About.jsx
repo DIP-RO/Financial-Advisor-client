@@ -1,7 +1,7 @@
 import Loading from '../../Component/Loading/Loading';
-import Whylex from '../../Component/Whylex/Whylex';
+
 import Others from './others';
-import OurTeam from './OurTeam/OurTeam';
+
 const About = () => {
     <Loading/>
     return (
@@ -14,9 +14,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Whylex></Whylex>
+          
 
-            <OurTeam></OurTeam>
+          
             <Others />
         </div>
     );

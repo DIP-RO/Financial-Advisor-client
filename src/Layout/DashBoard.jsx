@@ -30,11 +30,7 @@ const DashBoard = () => {
                     {
                         isAdmin &&
                         <>
-                            <Link to="/dashboard/addLawyer"><button className="btn text-white w-full my-2 bg-gray-900 hover:bg-gray-900 border-0"><img
-                                src="https://file.rendit.io/n/jrh2bdbn2ThJZbvydcGZ.svg"
-                                id="IconRoot"
-                                className="w-4"
-                            /> Add Lawyer</button></Link>
+                           
                             <Link to="/dashboard/addService"><button className="btn text-white w-full my-2 bg-gray-900 hover:bg-gray-900 border-0"><img
                                 src="https://file.rendit.io/n/KbbQnmyRu4YNEpCvYYec.svg"
                                 id="IconRoot"
@@ -65,12 +61,7 @@ const DashBoard = () => {
                                 src="https://file.rendit.io/n/KbbQnmyRu4YNEpCvYYec.svg"
                                 id="IconRoot"
                                 className="w-4"
-                            /> Bookmarks</button></Link>
-                            <Link to="/dashboard/message"><button className="btn text-white w-full my-2 bg-gray-900 hover:bg-gray-900 border-0"><img
-                                src="https://file.rendit.io/n/jrh2bdbn2ThJZbvydcGZ.svg"
-                                id="IconRoot"
-                                className="w-4"
-                            /> Messages</button></Link>
+                            /> Bookmarks</button></Link>                         
 
                             <Link to="/dashboard/booking"><button className="btn text-left text-white w-full mt-5 mb-2 bg-gray-900 hover:bg-gray-900 border-0"><img
                                 src="https://file.rendit.io/n/0YB4KAOY7CqXouZklsN3.svg"
