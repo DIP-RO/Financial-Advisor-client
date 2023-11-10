@@ -26,6 +26,8 @@ import AllServices from "../Component/Service/AllServices";
 import DownloadAppPage from "../Component/DownLoadApp/DownloadAppPage";
 import Advisor from "../Component/Recomand/Advisor";
 import Ai from "../Page/Ai/Ai";
+import Dipro from "../Page/Dipro/Dipro";
+import Juss from "../Page/Dipro/Juss";
 
  export const router = createBrowserRouter([
     {
@@ -55,6 +57,14 @@ import Ai from "../Page/Ai/Ai";
         {
           path: "/about",
           element:<About></About>,
+        },
+        {
+          path: "/dipro",
+          element:<Dipro></Dipro>,
+        },
+        {
+          path: "/juss",
+          element:<Juss></Juss>,
         },
         {
           path: "/blog",

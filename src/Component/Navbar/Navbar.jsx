@@ -6,11 +6,7 @@ import { AuthContext } from "../../Context/UserContext";
 
 const Navbar = () => {
  
-
-  const googleDocsLink =
-    "https://docs.google.com/document/d/1BOI5RHMjGetac5WQFKgkB5ptL4gZ-Qdb/edit?usp=sharing&ouid=117385674774119584053&rtpof=true&sd=true";
-  const googleDocsLink1 =
-    "https://drive.google.com/drive/folders/1qL7odCF55QBoJUdP5wsgSUTi8DViNN-8?usp=sharing";
+  
   const { t, i18n } = useTranslation();
   const { user } = useContext(AuthContext);
 
@@ -64,22 +60,10 @@ const Navbar = () => {
               <summary className="m-1 ">Teams</summary>
               <ul className="p-2 shadow menu dropdown-content z-[1]  rounded-box w-52">
                 <li className="text-black">
-                <a
-                  href={googleDocsLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Dipro Paul(221-15-5666)
-                </a>
+                <Link to="/dipro">Dipro Paul(221-15-5666)</Link>
                 </li>
                 <li>
-                <a
-                  href={googleDocsLink1}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  MD.Riyazus Salehin(221-15-5592)
-                </a>
+                <Link to="/juss"> MD.Riyazus Salehin(221-15-5592)</Link>
                 </li>
               </ul>
             </details>
@@ -134,22 +118,10 @@ const Navbar = () => {
               <summary className="m-1 ">Teams</summary>
               <ul className="p-2 shadow menu dropdown-content z-[1]  rounded-box w-52">
                 <li className="text-black">
-                <a
-                  href={googleDocsLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Dipro (221-15-5666)
-                </a>
+                <Link to="/dipro">Dipro Paul(221-15-5666)</Link>
                 </li>
                 <li className="text-black">
-                <a
-                  href={googleDocsLink1}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  MD.Riyazus Salehin(221-15-5592)
-                </a>
+                <Link to="/juss"> MD.Riyazus Salehin(221-15-5592)</Link>
                 </li>
               </ul>
             </details>
