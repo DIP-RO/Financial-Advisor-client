@@ -14,9 +14,9 @@ const Dipro = () => {
         <h2 className="card-title text-white">My Name Is Dipro Paul</h2>
         <p className="text-white">Id : 221-15-5666</p>
         <h2 className="text-2xl text-white">Assignment</h2>
-        <Link to="https://docs.google.com/document/d/1BOI5RHMjGetac5WQFKgkB5ptL4gZ-Qdb/edit?usp=sharing&ouid=117385674774119584053&rtpof=true&sd=true"><p className="text-cyan-400 underline-offset-1">SRS V1</p></Link>
-        <Link to=""><p className="text-cyan-400 underline-offset-1">SRS V2</p></Link>
-        <Link to=""><p className="text-cyan-400 underline-offset-1">SRS V3</p></Link>
+        <Link to="https://drive.google.com/drive/folders/1oM9RoLYyslpLrk-_RiPJjXHKly6kjPwl?usp=sharing"><p className="text-cyan-400 underline-offset-1">SRS V1</p></Link>
+        <Link to="https://drive.google.com/drive/folders/1oM9RoLYyslpLrk-_RiPJjXHKly6kjPwl?usp=sharing"><p className="text-cyan-400 underline-offset-1">SRS V2</p></Link>
+        <Link to="https://drive.google.com/drive/folders/1oM9RoLYyslpLrk-_RiPJjXHKly6kjPwl?usp=sharing"><p className="text-cyan-400 underline-offset-1">SRS V3</p></Link>
       </div>
     </div>
     );
