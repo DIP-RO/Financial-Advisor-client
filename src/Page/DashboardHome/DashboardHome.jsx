@@ -44,7 +44,7 @@ const DashboardHome = () => {
         <div className="flex flex-col  items-center  ">
             <div className="avatar mt-5 lg:hidden md:hidden xl:hidden">
                 <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                    <img src="https://i.ibb.co/hFKnrDC/24-23-08.jpg" />
+                    <img src="https://i.ibb.co/KWGpK5z/profile.jpg" />
                 </div>
             </div>
             <div className="lg:text-3xl sm:text-center sm:text-xl font-['Raleway'] leading-[38px] text-white w-full my-3 lg:ml-5">
