@@ -48,7 +48,7 @@ const DashboardHome = () => {
                 </div>
             </div>
             <div className="lg:text-3xl sm:text-center sm:text-xl font-['Raleway'] leading-[38px] text-white w-full my-3 lg:ml-5">
-                Hello Md riyadh! Let&apos;s get started.
+                Hello User! Let&apos;s get started.
             </div>
           
             <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 lg:gap-6 lg:m-10 md:gap-6 md:m-5 sm:gap-5 sm:hidden">

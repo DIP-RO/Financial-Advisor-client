@@ -2,32 +2,31 @@ import Loading from "../../Component/Loading/Loading";
 
 
 const AllTestimonial = () => {
-    const testymony = [
-        {
-            id: 1,
-            name: 'Stella Larson',
-            message: 'Sample text. Click to select the text box. Click again or double click to start editing the text.',
-            image: "https://i.ibb.co/VTsfwGj/fpdl-in-person-wearing-glasses-500927-366-normal.jpg",
-        },
-        {
-            id: 2,
-            name: 'Olga Jhonso',
-            message: 'Sample text. Click to select the text box. Click again or double click to start editing the text.',
-            image: "https://i.ibb.co/9qYCL6s/fpdl-in-realistic-3d-cartoon-character-with-glasses-beard-899449.jpg",
-        },
-        {
-            id: 3,
-            name: 'Paul Smith',
-            message: 'Sample text. Click to select the text box. Click again or double click to start editing the text.',
-            image: "https://i.ibb.co/2YSrjK7/fpdl-in-gothic-style-girl-cartoon-character-3d-beautiful-black-hair.jpg",
-        },
-        {
-            id: 4,
-            name: 'Nat Reynolds',
-            message: 'Sample text. Click to select the text box. Click again or double click to start editing the text.',
-            image: "https://i.ibb.co/Ky2pcj9/3d-portrait-businessman-23-2150793877.jpg",
-        },
-    ];
+    const testymony = [ {
+        id: 1,
+        name: 'Stella Larson',
+        message: 'Sample text. Click to select the text box. Click again or double click to start editing the text.',
+        image: "https://i.ibb.co/bbRMB9T/4113045.png",
+    },
+    {
+        id: 2,
+        name: 'Olga Jhonso',
+        message: 'Sample text. Click to select the text box. Click again or double click to start editing the text.',
+        image: "https://i.ibb.co/Qr3D2Jg/5556468.png",
+    },
+    {
+        id: 3,
+        name: 'Paul Smith',
+        message: 'Sample text. Click to select the text box. Click again or double click to start editing the text.',
+        image: "https://i.ibb.co/bbRMB9T/4113045.png",
+    },
+    {
+        id: 4,
+        name: 'Nat Reynolds',
+        message: 'Sample text. Click to select the text box. Click again or double click to start editing the text.',
+        image: "https://i.ibb.co/9GRd3J7/1000-F-230608264-fhoq-Bu-Eyi-CPw-T0h9-Rtnsu-NAId3h-Wung-P.jpg",
+    },
+];
 <Loading/>
     return (
         <div className="flex flex-col justify-center items-center my-20 sm:hidden">
