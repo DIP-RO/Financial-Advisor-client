@@ -16,7 +16,7 @@ const Modal = () => {
                <button className="btn btn-sm btn-circle btn-ghost absolute left-2 top-2 text-white"><img src="https://i.ibb.co/ydRtYXH/fullscreen.png" /></button>
                </Link>
                 <div className="text-4xl font-['Inter'] font-semibold text-white p-5 text-center">
-                    Welcome to LEX-AI
+                    Welcome to AI-Financial Advisor ChatBOT
                 </div>
                 <div className="border-solid overflow-hidden  flex flex-col justify-center gap-8 w-full items-center   rounded-[35px] bg-white p-10">
 
@@ -39,7 +39,7 @@ const Modal = () => {
                                 </div>
                             </div>
 
-                            <div className="chat-bubble bg-black text-white">Lex AI</div>
+                            <div className="chat-bubble bg-black text-white">AI ChatBOT</div>
 
                         </div>
                     </div>

@@ -14,8 +14,6 @@ import SignUp from "../Page/SignUp/SignUp";
 import Booking from "../Page/Booking/Booking";
 import Profile from "../Page/Profile/Profile";
 import ComingSoon from "../Page/ComingSoon/ComingSoon";
-import LexAi from "../Page/LexAi/LexAi";
-import BlogDetails from "../Page/BlogDetails/BlogDetails";
 import Registration from "../Page/Registration/Registration";
 import AddBlog from "../Page/DashboardHome/AddBlog";
 import AddService from "../Page/DashboardHome/AddService";
@@ -27,6 +25,7 @@ import AllServices from "../Component/Service/AllServices";
 
 import DownloadAppPage from "../Component/DownLoadApp/DownloadAppPage";
 import Advisor from "../Component/Recomand/Advisor";
+import Ai from "../Page/Ai/Ai";
 
  export const router = createBrowserRouter([
     {
@@ -70,8 +69,8 @@ import Advisor from "../Component/Recomand/Advisor";
           element:<Advisor></Advisor>,
         },
         {
-          path: "/lex-Ai",
-          element:<LexAi></LexAi>,
+          path: "/Ai",
+          element:<Ai></Ai>,
         },
         {
           path: "/coming-soon",
@@ -85,10 +84,7 @@ import Advisor from "../Component/Recomand/Advisor";
           path: "/allService",
           element:<AllServices></AllServices>,
         },
-        {
-          path: "/blog-details/:id",
-          element:<BlogDetails></BlogDetails>,
-        },
+        
        
         
       ],

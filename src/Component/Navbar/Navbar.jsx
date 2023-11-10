@@ -9,6 +9,8 @@ const Navbar = () => {
 
   const googleDocsLink =
     "https://docs.google.com/document/d/1BOI5RHMjGetac5WQFKgkB5ptL4gZ-Qdb/edit?usp=sharing&ouid=117385674774119584053&rtpof=true&sd=true";
+  const googleDocsLink1 =
+    "https://drive.google.com/drive/folders/1qL7odCF55QBoJUdP5wsgSUTi8DViNN-8?usp=sharing";
   const { t, i18n } = useTranslation();
   const { user } = useContext(AuthContext);
 
@@ -67,11 +69,17 @@ const Navbar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Dipro (221-15-5666)
+                  Dipro Paul(221-15-5666)
                 </a>
                 </li>
                 <li>
-                  <a>Item 2</a>
+                <a
+                  href={googleDocsLink1}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  MD.Riyazus Salehin(221-15-5592)
+                </a>
                 </li>
               </ul>
             </details>
@@ -108,8 +116,8 @@ const Navbar = () => {
         <Link to="/" className="btn btn-ghost">
           <figure>
             <img
-              className="h-[95px] w-[131px] mt-[-24px]"
-              src="https://i.ibb.co/7QmYQ3C/image.png"
+              className="h-12 w-12 rounded-full mt-[-24px]"
+              src="https://knowledge.wharton.upenn.edu/wp-content/uploads/2021/04/Artificial-Intelligence-Finance-600x440.jpg"
               alt="logo"
             />
           </figure>
@@ -134,8 +142,14 @@ const Navbar = () => {
                   Dipro (221-15-5666)
                 </a>
                 </li>
-                <li>
-                  <a>Item 2</a>
+                <li className="text-black">
+                <a
+                  href={googleDocsLink1}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  MD.Riyazus Salehin(221-15-5592)
+                </a>
                 </li>
               </ul>
             </details>

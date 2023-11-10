@@ -7,7 +7,7 @@ import Loading from "../Component/Loading/Loading";
 const Main = () => {
     <Loading/>
     return (
-        <div className="bg-[rgba(29,_52,_74,_0.77)] sm:max-w-sm">
+        <div className="bg-slate-900 sm:max-w-sm">
             <Navbar ></Navbar>
             
             <Outlet></Outlet>

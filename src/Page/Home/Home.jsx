@@ -7,7 +7,7 @@ import Testymony from "../../Component/Testymony/Testymony";
 import Service from "../../Component/Service/Service";
 
 import Question from "../../Component/Question/Question";
-import LexSearch from "./LexSearch/LexSearch";
+
 import Introducing from "./Introducing/Introducing";
 import Loading from "../../Component/Loading/Loading";
 import Advisor from "../../Component/Recomand/Advisor";
@@ -17,7 +17,7 @@ const Home = () => {
     <Loading/>
     return (
         <div className="sm:max-w-sm">
-            <LexSearch></LexSearch>
+         
             <Introducing></Introducing>
             <Carusel ></Carusel>
             

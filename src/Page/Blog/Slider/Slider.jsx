@@ -41,7 +41,7 @@ const Slider = () => {
   ]
 
   return (
-    <div className="min-h-fit flex  items-center flex-col my-10 ">
+    <div className="min-h-fit  from-slate-900 bg-slate-900 flex  items-center flex-col my-10 ">
       <h1 className="text-white text-3xl font-bold border-solid border-4 p-3 rounded-2xl mb-5 sm:m-2">Recent Blog</h1>
       <Swiper
 

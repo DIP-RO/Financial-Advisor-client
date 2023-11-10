@@ -14,7 +14,7 @@ const AllServices = () => {
         ];
 <Loading/>
     return (
-        <div className="sm:max-w-sm sm:mx-2 sm:mt-3">
+        <div className="sm:max-w-sm sm:mx-2 sm:mt-3  from-slate-900 bg-slate-900">
         <h1 className="lg:mt-10 text-2xl lg:text-5xl md:text-5xl  font-bold text-white text-center md:mt-10  sm:ml-10 sm:text-center lg:text-center mb-5 md:mb-0">Our Services:</h1>
         <div className="lg:my-10 grid lg:grid-cols-3 md:pl-14  md:mt-10 md:gap-5 md:w-full md:grid-cols-2 grid-cols-2 lg:gap-5 sm:gap-2">
             {service.map((item) => (

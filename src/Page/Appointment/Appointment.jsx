@@ -29,7 +29,7 @@ const Appointment = () => {
                         </select>
            </div>
          <Advisors></Advisors>
-            <div className="bg-[#1c5168] w-1/2 flex flex-col justify-center sm:mt-3  sm:w-3/4 sm:p-5 h-20 shrink-0 items-center rounded-[35px]">
+            <div className=" w-1/2 flex flex-col justify-center sm:mt-3  sm:w-3/4 sm:p-5 h-20 shrink-0 items-center rounded-[35px]">
                 <div className="text-6xl lg:text-4xl md:text-3xl sm:text-lg  font-['Poppins'] font-semibold leading-[32px] text-white">
                     TAKE APPOINTMENT
                 </div>

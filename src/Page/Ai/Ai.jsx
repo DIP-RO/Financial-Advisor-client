@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react';
-const LexAi = () => {
+const Ai = () => {
 
 
     const textAreaRef = useRef(null);
@@ -22,7 +22,7 @@ const LexAi = () => {
             <div className=" bg-[#1d344a] sm:min-h-screen min-h-screen">
 
                 <div className="text-4xl font-['Inter'] font-semibold text-white p-5 text-center">
-                    Welcome to LEX-AI
+                    Welcome to AI-Financial ChatBOT
                 </div>
                 <div className="flex justify-center items-center ">
                     <div className="border-solid overflow-hidden  flex flex-col justify-center gap-8  items-center   sm:rounded-t-[35px] lg:rounded-[35px]   p-5 bg-white w-3/4 sm:h-screen sm:w-full sm:bg-[#2533416c]">
@@ -37,7 +37,7 @@ const LexAi = () => {
                                     </div>
                                 </div>
 
-                                <div className="chat-bubble bg-black text-white">Lex AI</div>
+                                <div className="chat-bubble bg-black text-white">AI-Financial ChatBOT</div>
 
                             </div>
                         </div>
@@ -63,4 +63,4 @@ const LexAi = () => {
     );
 };
 
-export default LexAi;
+export default Ai;

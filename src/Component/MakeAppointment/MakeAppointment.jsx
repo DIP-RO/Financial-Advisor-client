@@ -6,7 +6,7 @@ const MakeAppointment = () => {
     <div className="hero bg-[#1d344a] sm:hidden">
       <div className="hero-content flex-col lg:flex-row-reverse md:flex-col items-center">
         <img
-          src="https://i.ibb.co/QJCKyp0/image.png"
+          src="https://i.ibb.co/Fwh2PgQ/63eaea9ebaab5d1463d3811e-627294c567a883ccf433f153-appointment-setting-tips-hero-1.png"
           className="max-w-lg rounded-lg shadow-2xl md:w-full"
           alt="Appointment Image"
         />
