@@ -6,7 +6,7 @@ import Loading from "../Loading/Loading";
 const ButtomNavigation = () => {
   const Menus = [
     { name: "Home", icon: "home-outline", dis: "translate-x-0" ,link:"/"},
-    { name: "Appointment", icon: "business-outline", dis: "translate-x-16" ,link:"/appointment" },
+    { name: "Team", icon: "business-outline", dis: "translate-x-16" ,link:"/team" },
     { name: "Chat", icon: "chatbubble-outline", dis: "translate-x-32" ,link:"/lex-Ai" },
     { name: "Blog", icon: "book-outline", dis: "translate-x-48" ,link:"/blog" },
     { name: "Profile", icon: "person-outline", dis: "translate-x-64",link:"/dashboard" },

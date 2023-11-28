@@ -65,6 +65,15 @@ const Navbar = () => {
                 <li>
                 <Link to="/juss"> MD.Riyazus Salehin(221-15-5592)</Link>
                 </li>
+                <li>
+                <Link to="/papon"> Papon Chandra Bir</Link>
+                </li>
+                <li>
+                <Link to="/rafi"> Inteshar Rahman Rafi</Link>
+                </li>
+                <li>
+                <Link to="/asif"> Md. Asif Hossain</Link>
+                </li>
               </ul>
             </details>
           </li>
@@ -122,6 +131,15 @@ const Navbar = () => {
                 </li>
                 <li className="text-black">
                 <Link to="/juss"> MD.Riyazus Salehin(221-15-5592)</Link>
+                </li>
+                <li className="text-black">
+                <Link to="/papon"> Papon Chandra Bir</Link>
+                </li>
+                <li className="text-black">
+                <Link to="/rafi"> Inteshar Rahman Rafi</Link>
+                </li>
+                <li className="text-black">
+                <Link to="/asif"> Md. Asif Hossain</Link>
                 </li>
               </ul>
             </details>

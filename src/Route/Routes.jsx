@@ -28,6 +28,10 @@ import Advisor from "../Component/Recomand/Advisor";
 import Ai from "../Page/Ai/Ai";
 import Dipro from "../Page/Dipro/Dipro";
 import Juss from "../Page/Dipro/Juss";
+import Papon from "../Page/Dipro/Papon";
+import Rafi from "../Page/Dipro/Rafi";
+import Asif from "../Page/Dipro/Asif";
+import Team from "../Page/Dipro/Team/Team";
 
  export const router = createBrowserRouter([
     {
@@ -67,12 +71,28 @@ import Juss from "../Page/Dipro/Juss";
           element:<Juss></Juss>,
         },
         {
+          path: "/papon",
+          element:<Papon></Papon>,
+        },
+        {
+          path: "/rafi",
+          element:<Rafi></Rafi>,
+        },
+        {
+          path: "/asif",
+          element:<Asif></Asif>,
+        },
+        {
           path: "/blog",
           element:<Blog></Blog>,
         },
         {
           path: "/contact",
           element:<Contact></Contact>,
+        },
+        {
+          path: "/team",
+          element:<Team></Team>,
         },
         {
           path: "/advisor",
